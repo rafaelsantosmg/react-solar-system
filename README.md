@@ -442,4 +442,3 @@ O avaliador automático não necessariamente avalia seu projeto na ordem em que 
 
 ---
 # VQV
-git 
