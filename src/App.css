@@ -1,3 +1,104 @@
-.App {
+/* .Color01 { color: #313b64 }
+.Color02 { color: #8f85d8 }
+.Color03 { color: #8e6385 }
+.Color04 { color: #553862 }
+.color05 { color: #5f4b8b } */
+
+* {
+  font-family: ' Fira Code ' , sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('./images/solar-system.jpg');
+}
+
+.header {
+  align-items: center;
+  background-color: rgba(49, 59, 99, 0.549);
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  width: 100%;
+}
+
+.header h1 {
+  color: rgb(224, 224, 224);
+  display: flex;
+  font-size: 5em;
+  font-style: italic;
+  font-weight: 900;
+}
+
+.solar-system {
+  display: flex;
+  flex-direction: column;
+}
+
+.solar-planets {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.planet-title {
+  color: white;
+  font-size: 3em;
+  font-style: italic;
+  margin: 20px;
   text-align: center;
+}
+
+.planet-card {
+  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+}
+
+.planet-card p {
+  color: white;
+  display: flex;
+  font-size: 2em;
+  margin: 10px;
+  text-align: center;
+}
+
+.planet-image {
+  display: flex;
+  width: 150px;
+}
+
+.missions {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  width: 80%;
+}
+
+.missions-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+.mission-card {
+  align-self: center;
+  background-color: rgba(255, 255, 255, 0.205);
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+  margin: 5px;
+  padding: 10px;
+  width: 200px;
+}
+
+.mission-card p {
+  color: white;
+  font-size: 14pt;
+  font-weight: 900;
 }
