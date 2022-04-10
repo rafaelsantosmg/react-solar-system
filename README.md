@@ -29,4 +29,4 @@ Neste projeto foi desenvolvido um modelo do sistema solar! Ao utilizar essa apli
 
   * Visualizar todas as cartas com informações sobre missões espaciais;
 
-### Projeto feito no módulo de fundamentos do Curso de Desenvolvimento WEB da TRYBE.
+### Projeto feito no módulo de Front-End do Curso de Desenvolvimento WEB da TRYBE.
