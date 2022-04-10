@@ -30,3 +30,35 @@ Neste projeto foi desenvolvido um modelo do sistema solar! Ao utilizar essa apli
   * Visualizar todas as cartas com informações sobre missões espaciais;
 
 ### Projeto feito no módulo de Front-End do Curso de Desenvolvimento WEB da TRYBE.
+
+## Rodando localmente
+
+Clone o projeto
+
+```bash
+  git clone git@github.com:rafaelsantosmg/react-solar-system.git
+```
+
+Entre no diretório do projeto
+
+```bash
+  cd react-solar-system
+```
+
+Instale as dependências
+
+```bash
+  npm install
+```
+
+Inicie o servidor
+
+```bash
+  npm run start
+```
+
+Acesse no navegador
+
+```bash
+  http://localhost:3000/
+```
